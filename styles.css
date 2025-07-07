@@ -757,6 +757,80 @@ a:focus {
     margin-bottom: var(--spacing-xs);
 }
 
+/* Demo Video Styles */
+.video-container {
+    width: 100%;
+    max-width: 450px;
+    background: var(--white);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    border: 3px solid var(--light-blue);
+    transition: var(--transition-normal);
+    margin: 0 auto;
+}
+
+.video-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 102, 204, 0.2);
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    display: block;
+    background: var(--dark-gray);
+    object-fit: contain;
+}
+
+.video-caption {
+    padding: var(--spacing-lg);
+    text-align: center;
+    background: var(--white);
+    border-top: 1px solid var(--light-gray);
+}
+
+.video-caption p {
+    font-weight: 600;
+    color: var(--primary-blue);
+    margin-bottom: var(--spacing-xs);
+    font-size: 1.1rem;
+}
+
+.video-caption small {
+    color: var(--gray);
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+/* Responsive video adjustments */
+@media (max-width: 768px) {
+    .video-container {
+        max-width: 100%;
+        max-width: 350px;
+        border-width: 2px;
+    }
+
+    .video-container video {
+        max-height: 220px;
+    }
+
+    .video-caption {
+        padding: var(--spacing-md);
+    }
+}
+
+@media (max-width: 480px) {
+    .video-container {
+        max-width: 300px;
+    }
+
+    .video-container video {
+        max-height: 180px;
+    }
+}
+
 /* Contact Section */
 .contact {
     padding: var(--spacing-xxl) 0;
