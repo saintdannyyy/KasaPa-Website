@@ -1,12 +1,12 @@
-# KasaPa - Giving Voice to the Voiceless
+# KasaPa - Every Voice Matters
 
-A modern, accessible website for KasaPa, an AI-powered mobile app developed by Team Twilight from the University of Ghana. KasaPa supports speech-impaired individuals in Ghana by enabling communication through local languages, particularly Twi.
+A modern, accessible website for KasaPa, an AI-powered mobile app developed by Team Twilight during the Tɛkyerɛma Pa Hackathon 2025. KasaPa supports speech-impaired individuals in Ghana by enabling communication through local languages, particularly Twi.
 
 ## 🏆 Achievement
 
 - **3rd Place** in the Tɛkyerɛma Pa Hackathon 2025
 - **48 competing teams** from across Ghana
-- Developed by **Team Twilight** from the University of Ghana
+- Developed by **Team Twilight**
 
 ## 🎯 Mission
 
@@ -32,9 +32,9 @@ A modern, accessible website for KasaPa, an AI-powered mobile app developed by T
 
 ### Mobile App
 
-- **Frontend**: Flutter / React Native
+- **Frontend**: React Native
 - **ASR Model**: Whisper (fine-tuned for Ghanaian speech)
-- **TTS Engine**: Twi TTS using Google TTS / Coqui TTS
+- **TTS Engine**: Twi TTS using Meta TTS
 - **Core Values**: Accessibility and Inclusion
 
 ### Website
@@ -45,53 +45,6 @@ A modern, accessible website for KasaPa, an AI-powered mobile app developed by T
 - **Fonts**: Inter and Nunito from Google Fonts
 - **Accessibility**: ARIA labels, semantic HTML, keyboard navigation
 
-## 🚀 Getting Started
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/your-username/kasapa-website.git
-   cd kasapa-website
-   ```
-
-2. **Open in VS Code**
-
-   ```bash
-   code .
-   ```
-
-3. **Launch the website**
-   - Use VS Code's Live Server extension, or
-   - Open `index.html` in your browser
-
-## 📂 Project Structure
-
-```
-kasapa-website/
-├── index.html          # Main HTML file
-├── styles.css          # Main stylesheet
-├── script.js           # JavaScript functionality
-├── README.md           # This file
-└── .github/
-    └── copilot-instructions.md  # Copilot guidelines
-```
-
-## 🎨 Design Guidelines
-
-### Color Palette
-
-- **Primary Red**: #C8102E (Ghanaian flag red)
-- **Primary Green**: #006B3C (Ghanaian flag green)
-- **Primary Gold**: #FFD700 (Ghanaian flag gold)
-- **Warm Red**: #E74C3C
-- **Sunset Orange**: #FF6B35
-
-### Typography
-
-- **Primary Font**: Inter (clean, modern)
-- **Secondary Font**: Nunito (friendly, approachable)
-- **Focus**: High contrast and readability
-
 ### Accessibility Standards
 
 - WCAG 2.1 AA compliance
@@ -100,37 +53,6 @@ kasapa-website/
 - Screen reader compatibility
 - Reduced motion support
 - High contrast mode support
-
-## 🌟 Key Sections
-
-1. **Hero Section**: Main value proposition and call-to-action
-2. **About**: KasaPa's story and Team Twilight's mission
-3. **Features**: Core app functionality and benefits
-4. **Journey**: Hackathon experience and achievements
-5. **Technology**: Technical stack and implementation
-6. **Demo**: Interactive prototype and screenshots
-7. **Contact**: Team information and contact form
-
-## 🔧 Development Notes
-
-### JavaScript Features
-
-- Mobile navigation toggle
-- Smooth scrolling with navbar offset
-- Form validation and submission
-- Back-to-top button
-- Intersection Observer animations
-- Accessibility enhancements
-- Performance monitoring
-
-### CSS Features
-
-- CSS Grid and Flexbox layouts
-- Custom properties for consistent theming
-- Mobile-first responsive design
-- Dark mode support
-- Print styles
-- Reduced motion queries
 
 ## 🤝 Contributing
 
@@ -170,14 +92,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- **Tɛkyerɛma Pa Hackathon 2025** for the platform and opportunity
-- **University of Ghana** for support and resources
-- **Speech-impaired community in Ghana** for inspiration and feedback
+- **Tɛkyerɛma Pa Hackathon 2025** for the platform, opportunity and resources
 - **Open source community** for tools and libraries
 
 ## 🔗 Links
 
-- **Live Demo**: [Coming Soon]
+- **Live Demo**: [https://kasapa.netlify.app/](https://kasapa.netlify.app/)
 - **App Download**: [Coming Soon]
 - **GitHub Repository**: [This Repository]
 - **Contact**: [Contact form on website]
@@ -186,4 +106,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 _Built with ❤️ by Team Twilight for the speech-impaired community in Ghana_
 
-**"Giving Voice to the Voiceless"** - KasaPa 2025
+**"Every Voice Matters"** - KasaPa 2025
